@@ -7,5 +7,10 @@ $ sudo yum-config-manager --enable software_collections
 $ sudo yum-config-manager --enable ol7_latest ol7_optional_latest
 $ sudo yum install scl-utils
 $ sudo yum install rh-git218
-$ scl enable rh-git218 bash
+$ scl enable rh-git218 
+
+$ sudo yum install java-11
+$ sudo yum install jdk-11.0.5
+
+execute spring boot initializr
 
